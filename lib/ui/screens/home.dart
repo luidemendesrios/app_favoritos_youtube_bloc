@@ -19,7 +19,7 @@ class Home extends StatelessWidget {
             alignment: Alignment.center,
             child: Text("0"),
           ),
-         IconButton(onPressed: null, icon: Icon(Icons.star,color: Colors.white,)),
+         const IconButton(onPressed: null, icon: Icon(Icons.star,color: Colors.white,)),
          IconButton(onPressed: (){
           showSearch(context: context, delegate: DataSearch());
          }, icon: const Icon(Icons.search,color: Colors.white,)),
